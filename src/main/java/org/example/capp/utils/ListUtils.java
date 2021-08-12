@@ -63,18 +63,4 @@ public class ListUtils {
         }
         return list2;
     }
-
-
-    /*public static void main(String[] args) {
-        List<Integer> arr = Arrays.asList(1,2,3, 5);
-        List<Integer> arr1 = Arrays.asList(4,8,2);
-
-
-        System.out.println(anyMatch(arr, x -> x % 2 == 0));
-        System.out.println(allMatch(arr1, x -> x % 2 == 0));
-        System.out.println(map(arr1, x -> (Integer.toString(x) + "a")));
-
-    }*/
-
-
 }
